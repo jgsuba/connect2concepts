@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MSS Opening Shift Report</title>
+  </head>
+  <body>
+    <h1>MSS Opening Shift Report<h1><br>
+    <form>
+      
+      Supervisor Name <input action="Input Name"><br>
+      Date <input type="date"><br>
+      Facility<br>
+
+      <form action="/select_facility.php">
+        <select name="Facility" id="Facility">
+          <option value="Select---">Select---</option>
+          <option value="ACSR">ACSR</option>
+          <option value="AOERC">AOERC</option>
+          <option value="SLAC">SLAC</option>
+        </select>
+      </form>
+      <br>
+      List all staff on shift, separate with commas <input action="Username">
+      <br><br>
+      Take signage outside?
+      <br><br>
+      <input type="radio"> Yes <input type="radio"> No
+      <br><br>
+      Take signage outside?
+      <br><br>
+      <input type="radio"> Yes <input type="radio"> No
+      <br><br>
+      Take signage outside?
+      <br><br>
+      <input type="radio"> Yes <input type="radio"> No
+      <br><br>
+      Take signage outside?
+      <br><br>
+      <input type="radio"> Yes <input type="radio"> No
+      <br><br>
+      Take signage outside?
+      <br><br>
+      <input type="radio"> Yes <input type="radio"> No
+      <br><br>
+      Take signage outside?
+      <br><br>
+      <input type="radio"> Yes <input type="radio"> No
+      <br><br>
+
+
+      Email: <input action="Email">
+      <br><br>
+      Password: <input type="password">
+      <br><br>
+      Confirm password: <input type="password">
+      <br><br>
+      <!-- Submit input here -->
+      <br><br>
+      <input type="submit">
+
+      <input type="button">
+      <input type="checkbox">
+      <input type="color">
+      
+      <input type="datetime-local">
+      <input type="email">
+      <input type="file">
+      <input type="hidden">
+      <input type="image">
+      <input type="month">
+      <input type="number">
+      <input type="password">
+      <input type="radio">
+      <input type="range">
+      <input type="reset">
+      <input type="search">
+      <input type="submit">
+      <input type="tel">
+      <input type="text">
+      <input type="time">
+      <input type="url">
+      <input type="week">
+    </form>
+  </body>
+</html>
