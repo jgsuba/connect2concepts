@@ -7,8 +7,8 @@
     <h1>MSS Opening Shift Report<h1><br>
     <form>
       
-      Supervisor Name <input action="Input Name"><br>
-      Date <input type="date"><br>
+      Supervisor Name <input action="Input Name"><br><br>
+      Date <input type="date"><br><br>
       Facility<br>
 
       <form action="/select_facility.php">
@@ -30,22 +30,48 @@
       <br><br>
       <input type="radio"> Yes <input type="radio"> No
       <br><br>
-      Take signage outside?
+      Disinfect and organize the front desk?
       <br><br>
       <input type="radio"> Yes <input type="radio"> No
       <br><br>
-      Take signage outside?
+      Distribute radios amongst the staff and the iPad to the Fitness Center?
       <br><br>
       <input type="radio"> Yes <input type="radio"> No
       <br><br>
-      Take signage outside?
+      Walk around the building to make sure that all necessary rooms are open?
       <br><br>
       <input type="radio"> Yes <input type="radio"> No
       <br><br>
-      Take signage outside?
+      Were any emergency doors disarmed prior to your initial walkthrough?
       <br><br>
       <input type="radio"> Yes <input type="radio"> No
       <br><br>
+      If yes, which doors?<br>
+      <input action="Open Doors"<br><br>
+      If working ACSR, open Ford Burnham and appropriate rooms/closets?<br>
+      <input type="radio"> Yes <input type="radio"> No<br>
+      <input type="radio"> N/A
+      <br><br>
+      If working ACSR, unlock doors and make sure lights are on and basketball hoops are down in Ford-Burnham for 6:30am.<br>
+      <input type="radio"> Yes <input type="radio"> No<br>
+      <input type="radio"> N/A
+      <br><br>
+      All emergency doors are armed and all fire-rated doors are closed.<br>
+      <input type="radio"> Yes <input type="radio"> No<br>
+      <input type="radio"> N/A
+      <br><br>
+      If working AOERC, re-lock the spin/cycle room following evening janitorial staff (TQM) access?<br>
+      <input type="radio"> Yes <input type="radio"> No<br>
+      <input type="radio"> N/A
+      <br><br>
+
+
+
+
+      <input type="submit">
+
+
+
 
 
       Email: <input action="Email">
