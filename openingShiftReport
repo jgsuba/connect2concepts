@@ -4,7 +4,7 @@
     <title>MSS Opening Shift Report</title>
   </head>
   <body>
-    <h1>MSS Opening Shift Report<h1><br>
+    <h1>MSS Opening Shift Report</h1><br>
     <form>
       
       Supervisor Name <input action="Input Name"><br><br>
@@ -24,27 +24,23 @@
       <br><br>
       Take signage outside?
       <br><br>
-      <input type="radio"> Yes <input type="radio"> No
-      <br><br>
-      Take signage outside?
-      <br><br>
-      <input type="radio"> Yes <input type="radio"> No
+      <input type="radio" name="signage"> Yes <input type="radio" name="signage"> No
       <br><br>
       Disinfect and organize the front desk?
       <br><br>
-      <input type="radio"> Yes <input type="radio"> No
+      <input type="radio" name="disinfect"> Yes <input type="radio" name="disinfect"> No
       <br><br>
       Distribute radios amongst the staff and the iPad to the Fitness Center?
       <br><br>
-      <input type="radio"> Yes <input type="radio"> No
+      <input type="radio" name="radios"> Yes <input type="radio" name="radios"> No
       <br><br>
       Walk around the building to make sure that all necessary rooms are open?
       <br><br>
-      <input type="radio"> Yes <input type="radio"> No
+      <input type="radio" name="openRooms"> Yes <input type="radio" name="openRooms"> No
       <br><br>
       Were any emergency doors disarmed prior to your initial walkthrough?
       <br><br>
-      <input type="radio"> Yes <input type="radio"> No
+      <input type="radio" name="disarmed"> Yes <input type="radio" name="disarmed"> No
       <br><br>
       If yes, which doors?<br>
       <input action="Open Doors"<br><br>
